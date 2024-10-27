@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.photoeditbd.com</title>
+    <link rel="shortcut icon" href="./asssets/photoshop.png" type="image/x-icon">
+    <!-- daisyUI and Tailwind css CDN link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="h-screen max-w-7xl mx-auto my-5 px-5 md:px-10 grid">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl text-center font-bold "><span class="text-fuchsia-600">HI,</span> <span class="text-emerald-600">I am sojon ghosh</span> </h1>
+
+        <section class=" my-6 grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div>
+                <h2 class="text-violet-800 text-3xl md:text-4xl lg:text-6xl font-semibold">Do you want to edit your photos?</h2>
+                <p class="my-4">Are you looking for guidance on photo editing, tips on using a specific photo editing tool, or something else? Let me know how I can help!</p>
+                <a href="https://www.facebook.com/" target="_blank"> <button class="bg-violet-800 py-3 px-6 text-white font-bold rounded-lg w-full md:w-32">Click me</button></a>
+            </div>
+            <div>
+                <!-- daisy ui code added here  -->
+                <div class="diff aspect-[16/9]">
+                    <div class="diff-item-1">
+                        <div class="bg-primary text-primary-content grid place-content-center text-9xl font-black">
+                        <img src="./asssets/after.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="diff-item-2">
+                        <div class="bg-base-200 grid place-content-center text-9xl font-black">
+                            <img src="./asssets/before.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="diff-resizer"></div>
+                </div>
+                <!-- daisy ui code end  -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>
